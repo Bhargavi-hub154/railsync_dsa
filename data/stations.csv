@@ -1,0 +1,15 @@
+station_id,station_name,city,platform_count,station_type
+STN101,New Delhi Central,New Delhi,16,Terminal
+STN102,Mumbai Chhatrapati Shivaji,Mumbai,18,Terminal
+STN103,Howrah Junction,Kolkata,23,Junction
+STN104,Chennai Central,Chennai,12,Terminal
+STN105,Bengaluru City Junction,Bengaluru,10,Junction
+STN106,Ahmedabad Junction,Ahmedabad,12,Junction
+STN107,Jaipur Junction,Jaipur,8,Junction
+STN108,Lucknow Charbagh,Lucknow,9,Junction
+STN109,Hyderabad Deccan,Hyderabad,6,Terminal
+STN110,Patna Junction,Patna,10,Junction
+STN111,Pune Junction,Pune,6,Junction
+STN112,Chandigarh Junction,Chandigarh,6,Junction
+STN113,Bhopal Junction,Bhopal,6,Junction
+STN114,Varanasi Cantonment,Varanasi,9,Junction

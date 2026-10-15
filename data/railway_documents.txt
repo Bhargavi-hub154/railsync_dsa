@@ -1,0 +1,37 @@
+RAILSYNC RAILWAY OPERATIONS MANUAL & INCIDENT DISPATCH LOG
+===========================================================
+
+SECTION 1: DISPATCH DIRECTIVES AND PRIORITY CLEARANCE
+1.1 All express corridor movements must receive priority clearance over freight services during peak commuter hours.
+1.2 When an express train approaches a junction, priority clearance must be logged by the section controller.
+1.3 In cases of dual platform conflicts, high-speed rakes hold priority clearance over departmental special trains.
+1.4 Priority clearance protocols must be verified by both the station master and the divisional train controller before signal green aspect clearance.
+1.5 Freight movements on the trunk corridor may be routed via the loop line to facilitate uninterrupted priority clearance for Rajdhani and Vande Bharat services.
+
+SECTION 2: PLATFORM CONGESTION MANAGEMENT PROTOCOL
+2.1 When station dwell time exceeds scheduled limits, platform congestion mitigation measures are triggered immediately.
+2.2 Platform congestion at terminal stations must be regulated through automated rake shunting into adjacent holding sidings.
+2.3 If platform congestion persists past twenty minutes, trains awaiting platform occupancy must be detained at outer signals.
+2.4 Terminal yards must report any developing platform congestion to the central train management system every fifteen minutes.
+2.5 Dynamic audio announcements must be activated at concourses to divert passenger footfall during severe platform congestion.
+
+SECTION 3: EMERGENCY TRACK MAINTENANCE AND BLOCK ORDERS
+3.1 Scheduled track maintenance requires a minimum four-hour traffic block authorized by the divisional engineer.
+3.2 Emergency track maintenance takes precedence over standard timetable commitments to guarantee structural running integrity.
+3.3 Ultrasonic rail flaw detection teams conducting track maintenance must deploy banner flags eight hundred meters from the active worksite.
+3.4 Heavy mechanised ballast tamping machines engaged in track maintenance must operate under absolute block working rules.
+3.5 Following track maintenance completion, an initial speed restriction of thirty kilometers per hour applies until track consolidation is certified.
+
+SECTION 4: SIGNAL FAILURE CONTINGENCY AND FOG PROTOCOL
+4.1 In the event of an automatic signal failure, the station master must issue paper authority form T-369-3b to locomotive pilots.
+4.2 During dense fog periods, the fog protocol requires visibility test objects to be monitored at the station starter signal.
+4.3 Under the active fog protocol, maximum permissible speed for trains equipped with fog safety devices is restricted to seventy-five kilometers per hour.
+4.4 Every signal failure incident must be recorded in the signal inspection register and rectified within forty minutes.
+4.5 The fog protocol remains in effect until the visibility test object is clearly visible from a distance of one hundred and eighty meters.
+
+SECTION 5: CREW SCHEDULING AND TURNAROUND INSTRUCTIONS
+5.1 Locomotive crew working hours shall not exceed nine continuous hours without mandatory relief crew change.
+5.2 Fast rake turnaround instructions require incoming and outgoing pilots to conduct joint cab brake feel inspections.
+5.3 Adequate crew rest periods are mandatory prior to roster assignment on long-haul passenger expresses.
+5.4 Turnaround instructions specify that rake cleaning and watering must be completed within fifty-five minutes of arrival.
+5.5 Station dispatchers must log pilot sign-on timestamps and ensure zero deviation from designated crew turnaround instructions.

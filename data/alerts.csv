@@ -1,0 +1,13 @@
+alert_id,train_id,station_name,alert_type,description,severity
+ALT201,12005,Howrah Junction,DELAY,Heavy yard congestion and signal delay near Howrah Outer,HIGH
+ALT202,12004,Pune Junction,TRACK_MAINTENANCE,Routine track tamping on platform loop 3,LOW
+ALT203,12012,Patna Junction,WEATHER,Dense morning fog causing cautionary speed restriction of 30 kmph,CRITICAL
+ALT204,12010,Chandigarh Junction,SIGNAL_FAILURE,Automatic signaling failure between Ambala and Chandigarh,HIGH
+ALT205,12002,Lucknow Charbagh,OVERCROWDING,Platform 1 passenger overflow during festive rush,MEDIUM
+ALT206,12018,New Delhi Central,TECHNICAL,Locomotive traction motor diagnostic check at maintenance siding,LOW
+ALT207,12007,Bengaluru City Junction,DELAY,Delayed rake placement from coaching yard due to shunting delay,MEDIUM
+ALT208,12003,Varanasi Cantonment,SECURITY,Precautionary track patrol inspection on downstream bridge,LOW
+ALT209,12016,Mumbai Chhatrapati Shivaji,POWER_OUTAGE,Overhead equipment 25kV power trip near suburban crossover,HIGH
+ALT210,12001,Bhopal Junction,SCHEDULE_CHANGE,Temporary platform reassignment from platform 2 to platform 4,MEDIUM
+ALT211,12011,Hyderabad Deccan,TRACK_MAINTENANCE,Emergency ballast cleaning work on down fast line,HIGH
+ALT212,12008,Pune Junction,TECHNICAL,Coach air brake pressure anomaly rectified at origin,LOW

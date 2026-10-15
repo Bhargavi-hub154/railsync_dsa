@@ -1,0 +1,59 @@
+================================================================================
+                   RAILSYNC ALGORITHM PERFORMANCE BENCHMARK REPORT             
+================================================================================
+Generated At: Thu Oct 15 07:21:26 IST 2026
+Java Runtime: 21.0.8 (Eclipse Adoptium)
+Operating System: Windows 11 (amd64)
+================================================================================
+
+--------------------------------------------------------------------------------
+EXPERIMENT 1: STRING SEARCHING — KMP VS NAIVE BACKTRACKING SEARCH
+--------------------------------------------------------------------------------
+Dataset 1A: Repetitive Text (Length: 60,000 chars, Pattern: 'AAAAAB')
+  - KMP Matches Found    : 2 (Time: 2.290 ms | 2,290,100 ns)
+  - Naive Matches Found  : 2 (Time: 4.463 ms | 4,462,500 ns)
+  - Match Verification   : VERIFIED MATCH (Both algorithms returned identical indices)
+  - Observed Speedup     : 1.95x faster with KMP on repetitive text
+
+Dataset 1B: Natural Railway Text (Length: 80,063 chars, Pattern: 'Track block authorized.')
+  - KMP Execution Time   : 1.387 ms (1,387,099 ns)
+  - Naive Execution Time : 1.083 ms (1,083,399 ns)
+  - Verification         : VERIFIED MATCH (Matches: 1013)
+
+--------------------------------------------------------------------------------
+EXPERIMENT 2: SORTING — RANDOMIZED QUICKSORT VS DUAL-PIVOT ARRAYS.SORT
+--------------------------------------------------------------------------------
+>> Input Size N = 10,000 elements:
+  * Uniform Random Integers              | Randomized QS:   4.669 ms | Arrays.sort:   3.004 ms | Match: VERIFIED
+  * Already Sorted Integers (Ascending)  | Randomized QS:   0.503 ms | Arrays.sort:   0.100 ms | Match: VERIFIED
+  * Reverse Sorted Integers (Descending) | Randomized QS:   0.529 ms | Arrays.sort:   0.199 ms | Match: VERIFIED
+
+>> Input Size N = 50,000 elements:
+  * Uniform Random Integers              | Randomized QS:   6.758 ms | Arrays.sort:   3.699 ms | Match: VERIFIED
+  * Already Sorted Integers (Ascending)  | Randomized QS:   1.281 ms | Arrays.sort:   0.514 ms | Match: VERIFIED
+  * Reverse Sorted Integers (Descending) | Randomized QS:   1.311 ms | Arrays.sort:   1.020 ms | Match: VERIFIED
+
+--------------------------------------------------------------------------------
+ACADEMIC ANALYSIS & VIVA NOTES
+--------------------------------------------------------------------------------
+1. String Search Insights:
+   - Naive search requires backtracking: when a character mismatch occurs after
+     several matches, the text pointer rewinds, causing O(n * m) worst-case time.
+   - KMP utilizes the Longest Prefix Suffix (LPS) array to advance without any
+     backtracking in the text pointer, strictly achieving O(n + m) time complexity.
+   - In pathological cases with heavy prefix repetition, KMP provides orders of
+     magnitude faster execution compared to Naive search.
+
+2. Sorting Insights:
+   - Standard deterministic QuickSort (pivot at first/last index) degrades to O(n^2)
+     on already-sorted or reverse-sorted datasets, causing call-stack overflow.
+   - Randomized QuickSort selects a pivot uniformly at random, ensuring balanced
+     partitions and preserving expected O(n log n) performance across all inputs.
+   - Java's built-in Arrays.sort uses Dual-Pivot QuickSort with JVM assembly-level
+     intrinsics and JIT optimizations, serving as an optimal industry baseline.
+
+3. Benchmarking Considerations:
+   - Measurements use System.nanoTime() for high-resolution elapsed duration.
+   - Exact timings vary depending on CPU frequency scaling, JVM JIT warmup,
+     operating system scheduler interrupts, and garbage collection passes.
+================================================================================

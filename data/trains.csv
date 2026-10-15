@@ -1,0 +1,19 @@
+train_id,train_name,source_station,destination_station,departure_time,arrival_time,delay_minutes,passenger_count,status
+12001,Rajdhani Express,New Delhi Central,Mumbai Chhatrapati Shivaji,06:00,21:30,0,1180,ON_TIME
+12002,Shatabdi Express,New Delhi Central,Lucknow Charbagh,06:10,12:25,15,820,DELAYED
+12003,Vande Bharat Superfast,New Delhi Central,Varanasi Cantonment,06:00,14:00,0,940,ON_TIME
+12004,Gitanjali Express,Mumbai Chhatrapati Shivaji,Howrah Junction,06:00,13:30,45,1350,DELAYED
+12005,Coromandel Express,Howrah Junction,Chennai Central,15:20,17:00,120,1420,DELAYED
+12006,Duronto Express,Mumbai Chhatrapati Shivaji,Ahmedabad Junction,23:25,05:55,0,890,ON_TIME
+12007,Karnataka Express,Bengaluru City Junction,New Delhi Central,19:20,10:30,30,1260,DELAYED
+12008,Deccan Queen,Pune Junction,Mumbai Chhatrapati Shivaji,07:15,10:25,5,980,ON_TIME
+12009,Garib Rath Express,Jaipur Junction,Mumbai Chhatrapati Shivaji,14:10,08:05,0,1050,ON_TIME
+12010,Kalka Mail,Howrah Junction,Chandigarh Junction,19:40,04:30,90,1310,DELAYED
+12011,Himsagar Express,Varanasi Cantonment,Hyderabad Deccan,10:15,16:45,0,780,ON_TIME
+12012,Ganga Kaveri Express,Patna Junction,Chennai Central,18:10,06:50,180,1140,DELAYED
+12013,Bhopal Express,Bhopal Junction,New Delhi Central,21:05,07:50,0,870,ON_TIME
+12014,Brindavan Express,Bengaluru City Junction,Chennai Central,15:00,21:10,10,910,ON_TIME
+12015,Mandovi Express,Mumbai Chhatrapati Shivaji,Pune Junction,07:10,18:45,0,620,ON_TIME
+12016,Golden Temple Mail,Mumbai Chhatrapati Shivaji,Chandigarh Junction,21:25,05:30,25,1290,DELAYED
+12017,Intercity Express,Ahmedabad Junction,Jaipur Junction,06:40,16:20,0,740,ON_TIME
+12018,Sampark Kranti Express,Howrah Junction,New Delhi Central,13:10,10:15,60,1190,DELAYED
